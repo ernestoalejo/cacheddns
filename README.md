@@ -3,7 +3,7 @@
 
 [![GoDoc](https://godoc.org/github.com/ernestoalejo/cacheddns?status.svg)](https://godoc.org/github.com/ernestoalejo/cacheddns)
 
-Resolve domains through a DNS caching the results in memory.
+Get the IP of a domain, caching the result temporarily in memory.
 
 
 ## Installation
