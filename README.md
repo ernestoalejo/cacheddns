@@ -1,11 +1,9 @@
 
 # cacheddns
 
-Resolve domains through a DNS caching the results in memory.
-
 [![GoDoc](https://godoc.org/github.com/ernestoalejo/cacheddns?status.svg)](https://godoc.org/github.com/ernestoalejo/cacheddns)
 
-Go HTTP handlers using context.
+Resolve domains through a DNS caching the results in memory.
 
 
 ## Installation
