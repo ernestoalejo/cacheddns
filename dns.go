@@ -34,10 +34,10 @@ func (c *CachedDomain) Get() (string, bool) {
 	defer c.lock.RUnlock()
 
 	if c.deadline.After(time.Now()) {
-		return "", false
+		return c.address, true
 	}
 
-	return c.address, true
+	return "", false
 }
 
 // Update the cached address if needed and return it. Any connection error will
